@@ -103,16 +103,25 @@ Application via la mise en place d’un PLM pour la muséologie\footnote{Le term
 \section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-La mise en oeuvre des outils du génie industriel au profit de l'histoire des techniques et du patrimoine a déjà fait l'objet de recherches théoriques (\todo{cite Laroche}). Cette thèse s'inscrit dans la poursuite de ces travaux et vise à étudier et mettre en oeuvre un cadre opérationnel pour le DHRM en milieu muséal.
-La démarche proposée consiste à appliquer la méthodologie proposée dans (\todo{cite Laroche}) autour d'un objet patrimonial et de formaliser les problématiques soulevées par l'interdisciplinarité SPI\footnote{SPI~: Sciences pour l'ingénieur}/SHS\footnote{SHS~: Sciences humaines et sociales}.
+La mise en oeuvre des outils du génie industriel au profit de l'histoire des techniques et du patrimoine a déjà fait l'objet de recherches théoriques\cite{Laroche2007}. Cette thèse s'inscrit dans la poursuite de ces travaux et vise à étudier et mettre en oeuvre un cadre opérationnel pour le DHRM en milieu muséal.
+La démarche proposée consiste à appliquer la méthodologie proposée dans \cite{Laroche2007} autour d'un objet patrimonial et de formaliser les problématiques soulevées par l'interdisciplinarité SPI\footnote{SPI~: Sciences pour l'ingénieur}/SHS\footnote{SHS~: Sciences humaines et sociales}.
 Le présent rapport vise à poser le contexte bibliographique des différents champs scientifiques concernés par la méthodologie envisagée. En effet, la spécificité des objets manipulés implique une couverture large de la littérature existante pour identifier les outils et méthodes potentiellement exploitables dans le cadre de ces travaux.
+
+Le champ d'application évoqué ici est celui de la muséologie. Aujourd'hui considérée comme discipline scientifique, celle-ci inclut l'ensemble des considérations liées au rapport entre l'homme et la réalité\cite{Desvallees2005}.
+Ainsi, il faut bien distinguer muséologie de muséographie, en ce que la disposition des objets des collections d'un musée n'est pas le seul élément à prendre en compte pour la compréhension
+de notre patrimoine. Depuis des années, la question de la protection du patrimoine est un enjeu socio-culturel majeur. L'UNESCO\footnote{United Nations Educational, Scientific and Cultural Organization} oeuvre depuis
+1945 en ce sens et la convention pour la protection du patrimoine mondial, culturel et naturel voit le jour en 1972. Ce texte est régulièrement révisé et l'UNESCO a mis en place les grandes orientations
+visant à mettre en oeuvre les principes de cette convention\cite{Unesco2008}.
+Aujourd'hui, en France comme à l'étranger, et grâce au développement des technologies numériques et à leurs innombrables utilisations, la valorisation du patrimoine devient un secteur de l'économie à part entière\cite{CAE2011}. Cette question
+n'est plus considérée comme un devoir mais comme un besoin et un atout à la fois économique et pédagogique.
+Ainsi, il convient de mettre en place des directives méthodologiques pour une conservation et une valorisation scientifique et pérenne de notre patrimoine\cite{LAROCHE-2008-422162}.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Problématique industrielle}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Le contexte administratif de la thèse CIFRE pose les contours de la problématique industrielle. Il s'agit de valoriser un objet des collections du musée d'histoire de Nantes~: la maquette du port de Nantes en 1900. Afin de valoriser de manière pérenne et interopérablecet objet, en accord avec les résultats issus de (\todo{cite Laroche}), il convient de capitaliser l'ensemble des informations disponibles et ainsi de constituer le produit numérique final, tel que décrit dans le DHRM.
-Cet objet, superbe plan-relief réalisé en 1899 par Paul Duchesne a été commandé par la chambre de commerce de Nantes afin de favoriser l'activité portuaire de la ville pour l'exposition universelle de 1900. Actuellement exposée en salle 21 du musée du château des ducs de Bretagne, cette maquette suscite l'intérêt des visiteurs (réf ?) tout en ne proposant qu'un cartel comme seule source d'informations à destination du public (lors des visites libres). L'objectif est donc double~: introduire un dispositif muséographique interactif permettant au public d'accéder aux informations disponibles sur l'objet tout en permettant à l'équipe de médiation d'enrichir les discours par le biais du numérique.
+Cet objet, superbe plan-relief réalisé en 1899 par Paul Duchesne a été commandé par la chambre de commerce de Nantes afin de favoriser l'activité portuaire de la ville pour l'exposition universelle de 1900\cite{GuilletB1999, Naegel2011}. Actuellement exposée en salle 21 du musée du château des ducs de Bretagne, cette maquette suscite l'intérêt des visiteurs (réf ?) tout en ne proposant qu'un cartel comme seule source d'informations à destination du public (lors des visites libres). L'objectif est donc double~: introduire un dispositif muséographique interactif permettant au public d'accéder aux informations disponibles sur l'objet tout en permettant à l'équipe de médiation d'enrichir les discours par le biais du numérique.
 Afin de répondre à cette problématique, le cadre méthodologique proposée dans la thèse de Florent Laroche est le plus adapté. Il convient désormais de mettre en place un dispositif opérationnel permettant d'encapsuler l'ensemble des connaissances historiques relatives à la maquette du port de Nantes.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -121,8 +130,8 @@ Afin de répondre à cette problématique, le cadre méthodologique proposée da
 
 À l'origine du projet, les historiens entrevoient dans la réalisation du dispositif muséographique une nouvelle problématique scientifique~: comment un objet muséographique peut servir de support à la création du récit historique ?
 Dans l'activité d'écriture de l'histoire, une phase de collecte des données (archivistiques notamment) permet de constituer le corpus de documents, nécessaire pour une analyse scientifique et critique de l'objet d'étude. Certains travaux en histoire des techniques mettent en lumière l'intérêt d'une méthode de synthèse et de capitalisation des connaissances pour optimiser cette analyse (\todo{réf michel cotte génétique technique}).
-À l'heure du numérique, de nombreux travaux consistent désormais à la mise en relation des documents du corpus ou au développement de produits numériques visant à mieux appréhender le sujet d'étude et les sources historiques. Si la plupart se contentent d'une restitution sous la forme d'un artefact (modèle 3D, visite virtuelle, application mobile \todo{réfs}), si fidèles à la réalité soient-ils, peu s'interrogent sur les possibilités de constitution d'un système d'organisation des connaissances permettant une approche multi-dimensionnelle de l'objet étudié (\todo{Usines 3D}).
-D'autres travaux reposent sur l'utilisation des outils et méthodes du web sémantique (\todo{Pouyllau, Laubé}). Ces travaux, basés sur les possibilités de modélisation ontologiques, permettent de formaliser un cadre de compréhension et d'interrogation des connaissances relatives au corpus de documents numériques. Cependant, cette approche nécessite un consensus au sein des communautés concernées afin de spécifier l'ensemble des classes et relations constituant l'ontologie du domaine.
+À l'heure du numérique, de nombreux travaux consistent désormais à la mise en relation des documents du corpus ou au développement de produits numériques visant à mieux appréhender le sujet d'étude et les sources historiques. Si la plupart se contentent d'une restitution sous la forme d'un artefact (modèle 3D, visite virtuelle, application mobile \todo{réfs}), si fidèles à la réalité soient-ils, peu s'interrogent sur les possibilités de constitution d'un système d'organisation des connaissances permettant une approche multi-dimensionnelle de l'objet étudié\cite{Benoit2010}.
+D'autres travaux reposent sur l'utilisation des outils et méthodes du web sémantique \cite{Pouyllau2008,Pouyllau2012} (\todo{Laubé, TGE ADONIS}). Ces travaux, basés sur les possibilités de modélisation ontologiques, permettent de formaliser un cadre de compréhension et d'interrogation des connaissances relatives au corpus de documents numériques. Cependant, cette approche nécessite un consensus au sein des communautés concernées afin de spécifier l'ensemble des classes et relations constituant l'ontologie du domaine.
 Sous-jacente à cette problématique de création du recit historique, se pose la question de la mise en perspective critique des sources. Dans cette optique, une nécessité qui apparaît clairement à la lumière des discussions avec les experts concernés est celle du débat et de la confrontation des points de vue. En effet, l'étude de sujets historiques implique une analyse rétrospective et subjective (caractéristique inhérente au travail de l'historien \todo{réf}). Ainsi, il convient d'assumer que la vérité ne peut s'approcher qu'avec la multiplicité des approches et des points de vue. Nous verrons dans l'étude des travaux en SPI que certains travaux mettent en avant ces problématiques dans d'autres secteurs d'activités et proposent des cadres de réflexion intéressants.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -137,21 +146,36 @@ La complexité de ces travaux de recherche vient à la fois de la inter-discipli
 
 \subsection{Systèmes d'organisation des connaissances}
 
+\subsubsection{Bases de données}
+
+\subsubsection{Ontologies}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{De la préservation à la valorisation~: l'apport du numérique}
+\section{De la préservation à la valorisation du patrimoine~: l'apport du numérique}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Le numérique au musée}
+Interactivité et nouvelles formes d'approches au public (\todo{Geneviève Vidal})
+\cite{LAROCHE-2010-473007}
+
+\subsection{Analyse de l'histoire}
+Importance des maquettes numériques\cite{Cotte2009}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusion, premiers constats et perspectives}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Bibliographie
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \newpage
-% \singlespacing
-% \begin{footnotesize}
-%   \bibliographystyle{apalike-fr.bst} 
-%   \bibliography{../../../Bibliographie.bib}
-% \end{footnotesize}
-% \doublespacing
+\newpage
+\singlespacing
+\begin{footnotesize}
+  \bibliographystyle{apalike-fr.bst} 
+  \bibliography{Bibliographie.bib}
+\end{footnotesize}
+\doublespacing
 
 
 
